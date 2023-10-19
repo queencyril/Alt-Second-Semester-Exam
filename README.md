@@ -2,7 +2,7 @@ React Counter App with Error Handling
 
 This is a simple React application that demonstrates a counter with error handling. The app allows you to increment, decrement, reset the counter, set a custom value, shows a not found page when you go to a wrong url and trigger an error page when an error occurs.
 
-To see a live demo of the application, you can visit (add netlify link)
+To see a live demo of the application, you can visit (https://quiet-kashata-41bba7.netlify.app/)
 
 Features:-
 
