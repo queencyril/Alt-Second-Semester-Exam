@@ -1,0 +1,168 @@
+/* Counter page */
+
+body {
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  place-content: center; 
+  
+}
+
+h1{
+  font-size: 25px;
+  padding-top: 10px;
+  font-family:monospace ;
+  color: rgba(196, 5, 170, 0.349);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.display-value{
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgba(119, 77, 84, 0.89);
+  background-color: rgba(211, 191, 208, 0.534);
+  border-radius: 20px;
+  border: 10px ridge rgba(209, 125, 143, 0.192);
+  text-align: center;
+}
+
+.counter-button{
+  margin: 5px;
+  border: 2px dashed rgba(128, 0, 117, 0.24);
+}
+
+.counter-button.btn1,.btn3{
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 35px;
+  color: rgba(75, 48, 52, 0.89);
+  
+}
+
+.counter-button.btn3{
+  border-top-right-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+.counter-button.btn1{
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+  margin-left: 10px;
+}
+
+.counter-button.btn2{
+  font-size: small;
+  font-weight: 900;
+  color: rgb(190, 9, 166);
+}
+
+.container {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border: 8px double rgba(255, 0, 221, 0.26);
+  border-top:0;
+  box-shadow: 0 20px 40px 5px rgba(97, 4, 24, 0.603);
+  
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 1.00s;
+  
+}
+
+button:hover {
+  border-color: #ff64dd;
+}
+
+.trigger-button{
+  border: 2px solid rgba(255, 192, 203, 0.438);
+  margin: 10px 20px 10px 20px;
+  color:rgba(112, 8, 112, 0.712);
+  font-weight: 700;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+
+}
+
+.customValue-button{
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 20px;
+  color: rgba(75, 48, 52, 0.89);
+  margin: 20px;
+  border: 2px dashed rgba(128, 0, 117, 0.24);
+  border-top-right-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+input{
+  padding: 10px 0;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
+
+
+
+/* Error Page */
+
+.error-container{
+  border: 10px dotted rgb(234, 0, 255);
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.error-heading{
+  font-size: 40px;
+  color: #9c1a80;
+}
+
+.error-message{
+  color: rgb(190, 9, 166);
+  font-size: 20px;
+}
+
+h3{
+  margin-top: 50px;
+  color: rgb(148, 11, 130);
+}
+
+.spanItem{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+img{
+  min-width: 70vw;
+  min-height: 50vh;
+}
+
+/* 404 Not Found Page */
+
+.not-found-container{
+  border: 10px dotted rgb(234, 0, 255);
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.not-found-heading{
+  font-size: 40px;
+  color: #9c1a80;
+}
+
+.not-found-message{
+  color: rgb(190, 9, 166);
+  font-size: 20px;
+}
