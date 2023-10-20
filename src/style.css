@@ -170,4 +170,8 @@ img{
     width: 90vw;
     height: 40%;
   }
+
+  .container {
+    margin-top: 80px;
+  }
 }
