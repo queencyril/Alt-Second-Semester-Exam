@@ -5,7 +5,8 @@ body {
   min-height: 300px;
   display: flex;
   place-content: center; 
-  
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
