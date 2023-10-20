@@ -177,5 +177,6 @@ img{
 
   .container {
     margin-top: 80px;
+    max-width: 300px;
   }
 }
