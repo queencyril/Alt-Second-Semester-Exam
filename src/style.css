@@ -75,7 +75,6 @@ button {
   font-family: inherit;
   cursor: pointer;
   transition: border-color 1.00s;
-  
 }
 
 button:hover {
@@ -89,7 +88,6 @@ button:hover {
   font-weight: 700;
   border-bottom-left-radius:0px;
   border-bottom-right-radius:0px;
-
 }
 
 .customValue-button{
@@ -113,7 +111,6 @@ input{
   border-right: 0;
   text-align: center;
 }
-
 
 
 /* Error Page */
@@ -165,4 +162,12 @@ img{
 .not-found-message{
   color: rgb(190, 9, 166);
   font-size: 20px;
+}
+
+/* Small Screen */
+@media (max-width: 414px){
+  img{
+    width: 90vw;
+    height: 40%;
+  }
 }
